@@ -1,51 +1,24 @@
 {
   "name": "gmail-clone-app",
-  "version": "1.0.0",
-  "description": "Gmail clone App",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "build": "webpack --config webpack.prod.js",
-    "watch": "webpack -w",
-    "dev": "webpack serve --config webpack.dev.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/uemanX/gmail-clone-app.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/uemanX/gmail-clone-app/issues"
-  },
-  "homepage": "https://github.com/uemanX/gmail-clone-app#readme",
   "dependencies": {
-    "@emotion/react": "^11.5.0",
-    "@emotion/styled": "^11.3.0",
-    "@mui/icons-material": "^5.1.0",
-    "@mui/material": "^5.1.0",
-    "@reduxjs/toolkit": "^1.6.2",
-    "@types/react": "^17.0.34",
-    "@types/react-dom": "^17.0.11",
-    "@types/react-redux": "^7.1.20",
-    "firebase": "^9.3.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-redux": "^7.2.6",
-    "react-router-dom": "^6.0.1"
+    "next": "12.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.3.2",
-    "css-loader": "^6.5.1",
-    "dotenv-webpack": "^7.0.3",
-    "prettier": "^2.4.1",
-    "style-loader": "^3.3.1",
-    "ts-loader": "^9.2.6",
-    "typescript": "^4.4.4",
-    "webpack": "^5.62.1",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-middleware": "^5.2.1",
-    "webpack-dev-server": "^4.4.0",
-    "webpack-merge": "^5.8.0"
+    "@types/node": "18.6.4",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.4",
+    "typescript": "4.7.4"
   }
 }
